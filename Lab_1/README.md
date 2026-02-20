@@ -1,5 +1,5 @@
 # Lab 1
-## Compile
+### Compile
 gcc -nostdlib -no-pie print_hello.s -o hello
-## Run
+### Run
 ./hello
