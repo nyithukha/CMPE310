@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 2
 ## Navigation (If message "No such file or directory" appears)
 cd Lab_2
 ### Compile
