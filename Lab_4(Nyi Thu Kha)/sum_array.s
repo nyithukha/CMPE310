@@ -14,13 +14,13 @@ loop_start:
     cmp %rsi, %rcx
     je done
 
+    # move value to edx, and add to eax
     mov (%rdi,%rcx,4), %edx
     add %edx, %eax
 
     inc %rcx
     jmp loop_start
-    # Put return value in rax
-
+    # eax will hold the total sum to be returned
 done:
     ret
 .section .note.GNU-stack,"",@progbits
